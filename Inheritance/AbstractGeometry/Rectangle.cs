@@ -50,7 +50,7 @@ namespace AbstractGeometry
 		}
 		public override void Info(PaintEventArgs e)
 		{
-			Console.WriteLine(this.GetType());
+			Console.WriteLine(this.GetType()); 
 			Console.Write($"Ширина прямогольника:{Width}");
 			Console.Write($"Высота прямогольника:{Height}");
 			base.Info(e);
