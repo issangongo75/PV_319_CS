@@ -30,7 +30,19 @@ namespace AbstractGeometry
 
 			Circle circle = new Circle(75, 570, 95, 3, Color.Yellow);
 			circle.Info(e);
-		}
+
+			IsoscalesTriangle i_triangle = new IsoscalesTriangle(50, 100, 700,150,8, Color.Green);
+			i_triangle.Info(e);
+
+			EquilateralTriangle e_triangle = new EquilateralTriangle(150, 500, 300, 5, Color.GreenYellow);
+			e_triangle.Info(e);
+
+			ScaleneTriangle s_triangle = new ScaleneTriangle(50,80,35,4, Color.Red);
+			s_triangle.Info(e);
+
+			RightTriangle r_triangle = new RightTriangle(80, 60, 100, 3, Color.Beige);
+			r_triangle.Info(e);
+		} 
 		[DllImport("kernel32.dll")]
 		public static extern IntPtr GetConsoleWindow();
 		[DllImport("kernel32.dll")]

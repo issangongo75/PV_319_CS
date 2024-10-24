@@ -47,13 +47,18 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Cirlce.cs" />
+    <Compile Include="EquilateralTriangle.cs" />
     <Compile Include="IHaveDiagonal.cs" />
     <Compile Include="IHaveDiameter.cs" />
+    <Compile Include="IsoscalesTriangle.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Rectangle.cs" />
+    <Compile Include="RightTriangle.cs" />
+    <Compile Include="ScaleneTriangle.cs" />
     <Compile Include="Shape.cs" />
     <Compile Include="Square.cs" />
+    <Compile Include="Triangle.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
